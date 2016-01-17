@@ -2,7 +2,6 @@
 <?php
   session_start(); //starts the session
 
-$user=$_SESSION['writer'];
 
 require_once("config.php");
 $link = new mysqli(DB_HOST,DB_USERNAME,DB_PASSWORD,DB_NAME) or die("Connection Failed");
@@ -314,7 +313,7 @@ window.onload = function(){
                             <aside class="description">
                                 <header><h3>Wide Range of Hotels and Restaurants</h3></header>
                                 <p>We have marked almost all the hotels from roadside hotels to % star hotels.</p>
-                                <a href="hotel_list.php" class="link-arrow">Find hotels</a>
+                                <a href="hotels.php" class="link-arrow">Find hotels</a>
                             </aside>
                         </div><!-- /.feature-box -->
                     </div><!-- /.col-md-4 -->
@@ -346,7 +345,7 @@ window.onload = function(){
             <div class="container">
                 <header class="section-title">
                     <h2>Offers</h2>
-                    <a href="offer.php" class="link-arrow">All Offers</a>
+                    <a href="offers.php" class="link-arrow">All Offers</a>
                 </header>
                 <div class="row">
 <?php

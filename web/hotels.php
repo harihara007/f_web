@@ -15,11 +15,11 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
-    <title>Zoner | Agencies Listing</title>
+    <title>FoodChase | Hotels</title>
 
 </head>
 
-<body class="page-sub-page page-agencies-listing" id="page-top">
+<body class="page-sub-page page-listing-masonry page-search-results" id="page-top">
 <!-- Wrapper -->
 <div class="wrapper">
     <!-- Navigation -->
@@ -143,168 +143,1303 @@
         <div class="container">
             <ol class="breadcrumb">
                 <li><a href="#">Home</a></li>
-                <li class="active">Agencies Listing</li>
+                <li class="active">Property Listing</li>
             </ol>
         </div>
         <!-- end Breadcrumb -->
 
         <div class="container">
             <div class="row">
-                <!-- Agent Detail -->
+                <!-- Results -->
                 <div class="col-md-9 col-sm-9">
-                    <section id="agencies-listing">
-                        <header><h1>Agencies Listing</h1></header>
-                        <div class="agency">
-                            <a href="agency-detail.html" class="agency-image"><img alt="" src="assets/img/agency-logo-01.png"></a>
-                            <div class="wrapper">
-                                <header><a href="agency-detail.html"><h2>Genius Properties</h2></a></header>
-                                <dl>
-                                    <dt>Phone:</dt>
-                                    <dd>(123) 456 789</dd>
-                                    <dt>Mobile:</dt>
-                                    <dd>888 123 456 789</dd>
-                                    <dt>Email:</dt>
-                                    <dd><a href="mailto:#">agency@example.com</a></dd>
-                                    <dt>Skype:</dt>
-                                    <dd>genius.properties</dd>
-                                </dl>
-                                <address>
-                                    <strong>Address</strong>
-                                    <br>
-                                    <strong>Genius Properties</strong><br>
-                                    4877 Spruce Drive<br>
-                                    West Newton, PA 15089
-                                </address>
+                    <section id="results">
+                        <header><h1>Properties Listing</h1></header>
+                        <section id="search-filter">
+                            <figure><h3><i class="fa fa-search"></i>Search Results:</h3>
+                                <span class="search-count">28</span>
+                                <div class="sorting">
+                                    <div class="form-group">
+                                        <select name="sorting">
+                                            <option value="">Sort By</option>
+                                            <option value="1">Lowest price first</option>
+                                            <option value="2">Highest price first</option>
+                                            <option value="3">Date added</option>
+                                        </select>
+                                    </div><!-- /.form-group -->
+                                </div>
+                            </figure>
+                        </section>
+                        <section id="properties">
+                        <div class="grid">
+                        <div class="property masonry">
+                            <div class="inner">
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <figure class="tag status">For Sale</figure>
+                                        <figure class="type" title="Apartment"><img src="assets/img/property-types/apartment.png"  alt=""></figure>
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 11,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-09.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>3398 Lodgeville Road</h3></a>
+                                        <figure>Golden Valley, MN 55427</figure>
+                                    </header>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et dui vestibulum</p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
                             </div>
-                        </div><!-- /.agency -->
-                        <div class="agency">
-                            <a href="agency-detail.html" class="agency-image"><img alt="" src="assets/img/agency-logo-02.png"></a>
-                            <div class="wrapper">
-                                <header><a href="agency-detail.html"><h2>House Trusted</h2></a></header>
-                                <dl>
-                                    <dt>Phone:</dt>
-                                    <dd>(123) 456 789</dd>
-                                    <dt>Mobile:</dt>
-                                    <dd>888 123 456 789</dd>
-                                    <dt>Email:</dt>
-                                    <dd><a href="mailto:#">agency@example.com</a></dd>
-                                    <dt>Skype:</dt>
-                                    <dd>genius.properties</dd>
-                                </dl>
-                                <address>
-                                    <strong>Address</strong>
-                                    <br>
-                                    <strong>House Trusted</strong><br>
-                                    4877 Spruce Drive<br>
-                                    West Newton, PA 15089
-                                </address>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner">
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <figure class="type" title="Villa"><img src="assets/img/property-types/villa.png"  alt=""></figure>
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 15,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/masonry-03.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>1179 Stroop Hill Road</h3></a>
+                                        <figure>Atlanta, GA 30309 </figure>
+                                    </header>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et dui vestibulum</p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
                             </div>
-                        </div><!-- /.agency -->
-                        <div class="agency">
-                            <a href="agency-detail.html" class="agency-image"><img alt="" src="assets/img/agency-logo-03.png"></a>
-                            <div class="wrapper">
-                                <header><a href="agency-detail.html"><h2>LightHouse Estate</h2></a></header>
-                                <dl>
-                                    <dt>Phone:</dt>
-                                    <dd>(123) 456 789</dd>
-                                    <dt>Mobile:</dt>
-                                    <dd>888 123 456 789</dd>
-                                    <dt>Email:</dt>
-                                    <dd><a href="mailto:#">agency@example.com</a></dd>
-                                    <dt>Skype:</dt>
-                                    <dd>genius.properties</dd>
-                                </dl>
-                                <address>
-                                    <strong>Address</strong>
-                                    <br>
-                                    <strong>LightHouse Estate</strong><br>
-                                    4877 Spruce Drive<br>
-                                    West Newton, PA 15089
-                                </address>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner">
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <figure class="tag status">For Sale</figure>
+                                        <figure class="type" title="Vineyard"><img src="assets/img/property-types/vineyard.png"  alt=""></figure>
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 39,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-02.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>1028 Henery Street</h3></a>
+                                        <figure>Wichita, KS 67202 </figure>
+                                    </header>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et dui vestibulum</p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
                             </div>
-                        </div><!-- /.agency -->
-                        <div class="agency">
-                            <a href="agency-detail.html" class="agency-image"><img alt="" src="assets/img/agency-logo-01.png"></a>
-                            <div class="wrapper">
-                                <header><a href="agency-detail.html"><h2>Genius Properties</h2></a></header>
-                                <dl>
-                                    <dt>Phone:</dt>
-                                    <dd>(123) 456 789</dd>
-                                    <dt>Mobile:</dt>
-                                    <dd>888 123 456 789</dd>
-                                    <dt>Email:</dt>
-                                    <dd><a href="mailto:#">agency@example.com</a></dd>
-                                    <dt>Skype:</dt>
-                                    <dd>genius.properties</dd>
-                                </dl>
-                                <address>
-                                    <strong>Address</strong>
-                                    <br>
-                                    <strong>Genius Properties</strong><br>
-                                    4877 Spruce Drive<br>
-                                    West Newton, PA 15089
-                                </address>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner">
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <figure class="tag status">For Sale</figure>
+                                        <figure class="ribbon">Sold</figure>
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 39,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/masonry-01.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>2035 Luke Lane</h3></a>
+                                        <figure>Lawton, OK 73501 </figure>
+                                    </header>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et dui vestibulum</p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
                             </div>
-                        </div><!-- /.agency -->
-                        <div class="agency">
-                            <a href="agency-detail.html" class="agency-image"><img alt="" src="assets/img/agency-logo-02.png"></a>
-                            <div class="wrapper">
-                                <header><a href="agency-detail.html"><h2>House Trusted</h2></a></header>
-                                <dl>
-                                    <dt>Phone:</dt>
-                                    <dd>(123) 456 789</dd>
-                                    <dt>Mobile:</dt>
-                                    <dd>888 123 456 789</dd>
-                                    <dt>Email:</dt>
-                                    <dd><a href="mailto:#">agency@example.com</a></dd>
-                                    <dt>Skype:</dt>
-                                    <dd>genius.properties</dd>
-                                </dl>
-                                <address>
-                                    <strong>Address</strong>
-                                    <br>
-                                    <strong>House Trusted</strong><br>
-                                    4877 Spruce Drive<br>
-                                    West Newton, PA 15089
-                                </address>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner">
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 76,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-07.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>4068 Diamond Street</h3></a>
+                                        <figure>Charlotte, NC 28217 </figure>
+                                    </header>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et dui vestibulum</p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
                             </div>
-                        </div><!-- /.agency -->
-                        <div class="agency">
-                            <a href="agency-detail.html" class="agency-image"><img alt="" src="assets/img/agency-logo-03.png"></a>
-                            <div class="wrapper">
-                                <header><a href="agency-detail.html"><h2>LightHouse Estate</h2></a></header>
-                                <dl>
-                                    <dt>Phone:</dt>
-                                    <dd>(123) 456 789</dd>
-                                    <dt>Mobile:</dt>
-                                    <dd>888 123 456 789</dd>
-                                    <dt>Email:</dt>
-                                    <dd><a href="mailto:#">agency@example.com</a></dd>
-                                    <dt>Skype:</dt>
-                                    <dd>genius.properties</dd>
-                                </dl>
-                                <address>
-                                    <strong>Address</strong>
-                                    <br>
-                                    <strong>LightHouse Estate</strong><br>
-                                    4877 Spruce Drive<br>
-                                    West Newton, PA 15089
-                                </address>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner">
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <figure class="tag status">For Sale</figure>
+                                        <figure class="type" title="Apartment"><img src="assets/img/property-types/apartment.png"  alt=""></figure>
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 99,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/masonry-02.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>2088 May Street</h3></a>
+                                        <figure>Somerset, KY 42503 </figure>
+                                    </header>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et dui vestibulum</p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
                             </div>
-                        </div><!-- /.agency -->
-                        <!-- Pagination -->
-                        <div class="center">
-                            <ul class="pagination">
-                                <li class="active"><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">4</a></li>
-                                <li><a href="#">5</a></li>
-                            </ul><!-- /.pagination-->
-                        </div><!-- /.center-->
-                    </section><!-- /#agencies-listing -->
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <figure class="tag status">For Sale</figure>
+                                        <figure class="ribbon">In Hold</figure>
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 16,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-05.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>2008 Collins Street</h3></a>
+                                        <figure>Punxsutawney, PA 15767 </figure>
+                                    </header>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et dui vestibulum</p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <figure class="type" title="Industrial Site"><img src="assets/img/property-types/industrial-site.png" alt=""></figure>
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 36,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-11.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>3736 Tavern Place</h3></a>
+                                        <figure>Beckley, WV 25801 </figure>
+                                    </header>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et dui vestibulum</p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <figure class="tag status">For Sale</figure>
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 68,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-12.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>527 Daylene Drive</h3></a>
+                                        <figure>Ann Arbor, MI 48104 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+                                        Integer ultricies enim ac eros interdum, a sodales nulla aliquet.
+                                        Pellentesque rhoncus quam at pulvinar suscipit.
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 198,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-06.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>3477 Austin Secret Lane</h3></a>
+                                        <figure>Salt Lake City, UT 84111 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 19,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-08.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>3566 Bottom Lane</h3></a>
+                                        <figure>Barker, NY 14012 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                                        Integer ultricies enim ac eros interdum, a sodales nulla aliquet.
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <figure class="tag status">For Sale</figure>
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 48,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-10.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>2931 Pearcy Avenue</h3></a>
+                                        <figure>Milwaukee, WI 53223 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                                        Integer ultricies enim ac eros interdum, a sodales nulla aliquet.
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <figure class="tag status">For Sale</figure>
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 71,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/masonry-01.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>4816 Massachusetts Avenue</h3></a>
+                                        <figure>Washington, DC 20036 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                                        Integer ultricies enim ac eros interdum, a sodales nulla aliquet.
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 69,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-02.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>2947 Bell Street</h3></a>
+                                        <figure>New York, NY 10003 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <figure class="tag status">For Sale</figure>
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 160,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-04.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>946 Elk Street</h3></a>
+                                        <figure>Los Angeles, CA 90017 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 55,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-07.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>4425 Coal Road</h3></a>
+                                        <figure>Lock Haven, PA 17745 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 57,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/masonry-02.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>4091 Parkway Street</h3></a>
+                                        <figure>Los Angeles, CA 90017 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 126,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-06.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>3619 Elliott Street</h3></a>
+                                        <figure>Salisbury, NH 03268 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 36,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-11.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>3736 Tavern Place</h3></a>
+                                        <figure>Beckley, WV 25801 </figure>
+                                    </header>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et dui vestibulum</p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 68,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-12.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>527 Daylene Drive</h3></a>
+                                        <figure>Ann Arbor, MI 48104 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+                                        Integer ultricies enim ac eros interdum, a sodales nulla aliquet.
+                                        Pellentesque rhoncus quam at pulvinar suscipit.
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 198,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-06.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>3477 Austin Secret Lane</h3></a>
+                                        <figure>Salt Lake City, UT 84111 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 19,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-08.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>3566 Bottom Lane</h3></a>
+                                        <figure>Barker, NY 14012 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                                        Integer ultricies enim ac eros interdum, a sodales nulla aliquet.
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 48,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-10.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>2931 Pearcy Avenue</h3></a>
+                                        <figure>Milwaukee, WI 53223 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                                        Integer ultricies enim ac eros interdum, a sodales nulla aliquet.
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 71,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/masonry-01.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>4816 Massachusetts Avenue</h3></a>
+                                        <figure>Washington, DC 20036 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                                        Integer ultricies enim ac eros interdum, a sodales nulla aliquet.
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 69,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-02.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>2947 Bell Street</h3></a>
+                                        <figure>New York, NY 10003 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 160,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-04.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>946 Elk Street</h3></a>
+                                        <figure>Los Angeles, CA 90017 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 55,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-07.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>4425 Coal Road</h3></a>
+                                        <figure>Lock Haven, PA 17745 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 57,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/masonry-02.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>4091 Parkway Street</h3></a>
+                                        <figure>Los Angeles, CA 90017 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 126,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-06.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>3619 Elliott Street</h3></a>
+                                        <figure>Salisbury, NH 03268 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 68,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-12.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>527 Daylene Drive</h3></a>
+                                        <figure>Ann Arbor, MI 48104 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+                                        Integer ultricies enim ac eros interdum, a sodales nulla aliquet.
+                                        Pellentesque rhoncus quam at pulvinar suscipit.
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 198,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-06.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>3477 Austin Secret Lane</h3></a>
+                                        <figure>Salt Lake City, UT 84111 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 19,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-08.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>3566 Bottom Lane</h3></a>
+                                        <figure>Barker, NY 14012 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                                        Integer ultricies enim ac eros interdum, a sodales nulla aliquet.
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 48,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-10.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>2931 Pearcy Avenue</h3></a>
+                                        <figure>Milwaukee, WI 53223 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                                        Integer ultricies enim ac eros interdum, a sodales nulla aliquet.
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 71,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/masonry-01.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>4816 Massachusetts Avenue</h3></a>
+                                        <figure>Washington, DC 20036 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                                        Integer ultricies enim ac eros interdum, a sodales nulla aliquet.
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 69,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-02.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>2947 Bell Street</h3></a>
+                                        <figure>New York, NY 10003 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 160,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-04.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>946 Elk Street</h3></a>
+                                        <figure>Los Angeles, CA 90017 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 55,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-07.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>4425 Coal Road</h3></a>
+                                        <figure>Lock Haven, PA 17745 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 57,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/masonry-02.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>4091 Parkway Street</h3></a>
+                                        <figure>Los Angeles, CA 90017 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                        <dt>Beds:</dt>
+                                        <dd>3</dd>
+                                        <dt>Baths:</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+                        <div class="property masonry">
+                            <div class="inner" data-scroll-reveal>
+                                <a href="property-detail.html">
+                                    <div class="property-image">
+                                        <div class="overlay">
+                                            <div class="info">
+                                                <div class="tag price">$ 126,000</div>
+                                            </div>
+                                        </div>
+                                        <img alt="" src="assets/img/properties/property-06.jpg">
+                                    </div>
+                                </a>
+                                <aside>
+                                    <header>
+                                        <a href="property-detail.html"><h3>3619 Elliott Street</h3></a>
+                                        <figure>Salisbury, NH 03268 </figure>
+                                    </header>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+                                    </p>
+                                    <dl>
+                                        <dt>Status:</dt>
+                                        <dd>Sale</dd>
+                                        <dt>Area:</dt>
+                                        <dd>860 m<sup>2</sup></dd>
+                                    </dl>
+                                    <a href="property-detail.html" class="link-arrow">Read More</a>
+                                </aside>
+                            </div>
+                        </div><!-- /.property -->
+
+                        </div><!-- /js-masonry-->
+                            <!-- Pagination -->
+                            <div class="center">
+                                <ul class="pagination">
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                </ul><!-- /.pagination-->
+                            </div><!-- /.center-->
+                        </section><!-- /#properties-->
+                    </section><!-- /#results -->
                 </div><!-- /.col-md-9 -->
-                <!-- end Agent Detail -->
+                <!-- end Results -->
 
                 <!-- sidebar -->
                 <div class="col-md-3 col-sm-3">
@@ -517,18 +1652,19 @@
 <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
-<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="assets/js/icheck.min.js"></script>
 <script type="text/javascript" src="assets/js/retina-1.1.0.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="assets/js/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="assets/js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="assets/js/scrollReveal.min.js"></script>
 <script type="text/javascript" src="assets/js/jshashtable-2.1_src.js"></script>
 <script type="text/javascript" src="assets/js/jquery.numberformatter-1.2.3.js"></script>
 <script type="text/javascript" src="assets/js/tmpl.js"></script>
 <script type="text/javascript" src="assets/js/jquery.dependClass-0.1.js"></script>
 <script type="text/javascript" src="assets/js/draggable-0.1.js"></script>
 <script type="text/javascript" src="assets/js/jquery.slider.js"></script>
+<script type="text/javascript" src="assets/js/custom-map.js"></script>
 <script type="text/javascript" src="assets/js/custom.js"></script>
 <!--[if gt IE 8]>
 <script type="text/javascript" src="assets/js/ie.js"></script>
